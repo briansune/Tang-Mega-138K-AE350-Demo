@@ -21,6 +21,6 @@ Both debug and flash boot supported stability.
 
 See Demo Video:
 
-[<img src="https://i9.ytimg.com/vi_webp/nx1MIbgfMJo/mq2.webp?sqp=COjssqsG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEsgWyhlMA8=&rs=AOn4CLAJ78aPzn3pXeWmMmRTVyxML8Vb8g" width="600" height="300"/>](https://youtu.be/nx1MIbgfMJo)
+[![Watch the video](https://img.youtube.com/vi/nx1MIbgfMJo/0.jpg)](https://youtu.be/nx1MIbgfMJo)
 
 As always ENJOY~
