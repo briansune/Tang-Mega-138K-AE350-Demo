@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.andestech.ide.dsf.gdbjtag.launch.startupLaunchConfigurationType">
+<booleanAttribute key="--nx" value="true"/>
+<booleanAttribute key=".SOURCE.ANDESIGHT.GDB.INIT" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_ACE_DISAVLED_EXECPTION" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_BUS_WRITE_TRANSACTION" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_ILLEGAL_INSTRUCTION" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_INSTRUCTION_ACCESS_FAULT" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_INSTRUCTION_ACCESS_MISALIGNED" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_INSTRUCTION_PAGE_FAULT" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_LOAD_ACCESS_FAULT" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_LOAD_ACCESS_MISALIGNED" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_LOAD_PAGE_FAULT" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_NONMASKABLE_INTERRUPT" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_PER_COUNTER_OVERFLOW" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_SLAVE_PORT_ECC" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_STORE_ACCESS_FAULT" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_STORE_ACCESS_MISALIGNED" value="true"/>
+<booleanAttribute key="SUPPORT_GENERAL_EXCEPTION_STORE_PAGE_FAULT" value="true"/>
+<booleanAttribute key="SUPPORT_HSP" value="true"/>
+<stringAttribute key="__rtos_tracer_target" value="__rtos_tracer_target"/>
+<booleanAttribute key="com.andestech.ide.debug.generalexception.handler.SUPPORT_GENERAL_EXCEPTION" value="false"/>
+<booleanAttribute key="com.andestech.ide.debug.generalexception.handler.SUPPORT_GENERAL_EXCEPTION_HSP_AUTO_SET_BOUND" value="true"/>
+<stringAttribute key="com.andestech.ide.debug.generalexception.handler.SUPPORT_GENERAL_EXCEPTION_HSP_BOUND" value=""/>
+<stringAttribute key="com.andestech.ide.debug.generalexception.handler.SUPPORT_GENERAL_EXCEPTION_HSP_SPBASE" value=""/>
+<intAttribute key="com.andestech.ide.debug.generalexception.handler.SUPPORT_HSP_TYPE" value="0"/>
+<stringAttribute key="com.andestech.ide.dsf.gdb.core.CONNECT_TYPE_OPTION_ID" value="2"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdb.core.DISABLE_MEMORY_MAP" value="false"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdb.core.HOST_PORT_MANUALLY" value="false"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdb.core.MCU_PROGRAM" value="true"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdb.core.MEMORY_TRIGGER" value="false"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdb.core.PWR_ENABLE" value="false"/>
+<intAttribute key="com.andestech.ide.dsf.gdb.core.PWR_MAX_DISPLAY_DURATION" value="10"/>
+<intAttribute key="com.andestech.ide.dsf.gdb.core.PWR_MODE" value="1"/>
+<intAttribute key="com.andestech.ide.dsf.gdb.core.PWR_SAMPLE_RATE" value="100"/>
+<stringAttribute key="com.andestech.ide.dsf.gdb.core.RTOS_PYTHON_SCRIPT_PATH" value="${AUTO}"/>
+<stringAttribute key="com.andestech.ide.dsf.gdb.core.RTOS_TIMELINE_TRACING_LOG_SIZE" value="100"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdb.core.SUPPORT_RTOS" value="false"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdb.core.SUPPORT_RTOS_TIMELINE" value="false"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdb.core.TARGET_MANAGEMENT_SERVICE" value="true"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdb.core.TARGET_MANAGEMENT_SERVICE_MANUALLY_CLOSE" value="false"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdbjtag.core.auto.burn" value="false"/>
+<stringAttribute key="com.andestech.ide.dsf.gdbjtag.core.binaryFileName" value="${workspace_loc:\ae350_test\Debug\output\ae350_test.bin}"/>
+<stringAttribute key="com.andestech.ide.dsf.gdbjtag.core.binaryOffset" value=""/>
+<booleanAttribute key="com.andestech.ide.dsf.gdbjtag.core.callFlashDriver" value="false"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdbjtag.core.resetAndHold" value="true"/>
+<booleanAttribute key="com.andestech.ide.dsf.gdbjtag.core.restoreBinary" value="false"/>
+<intAttribute key="org.eclipse.cdt.debug.gdbjtag.core.delay" value="0"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.doHalt" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.doReset" value="false"/>
+<stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageFileName" value=""/>
+<stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageOffset" value=""/>
+<stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.initCommands" value="load"/>
+<stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.ipAddress" value="localhost"/>
+<stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.jtagDeviceId" value="com.andestech.ide.dsf.gdbjtag.device.ice.AndesICEDevice"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.loadImage" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.loadSymbols" value="false"/>
+<stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.pcRegister" value=""/>
+<intAttribute key="org.eclipse.cdt.debug.gdbjtag.core.portNumber" value="9900"/>
+<stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.runCommands" value=""/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.setPcRegister" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.setResume" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.setStopAt" value="true"/>
+<stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.stopAt" value="main"/>
+<stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.symbolsFileName" value=""/>
+<stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.symbolsOffset" value=""/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.useFileForImage" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.useFileForSymbols" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.useProjBinaryForImage" value="true"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.useProjBinaryForSymbols" value="true"/>
+<booleanAttribute key="org.eclipse.cdt.debug.gdbjtag.core.useRemoteTarget" value="true"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="${gdb}"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.GDB_INIT" value="${.gdbinit}"/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.UPDATE_THREADLIST_ON_SUSPEND" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="remote"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug\ae350_test.adx"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="ae350_test"/>
+<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="config.nds32le-elf-mculib-v5.exe.debug.437140951"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/ae350_test"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;&#13;&#10;"/>
+<stringAttribute key="process_factory_id" value="org.eclipse.cdt.dsf.gdb.GdbProcessFactory"/>
+</launchConfiguration>

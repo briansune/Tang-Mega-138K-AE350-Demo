@@ -1,0 +1,17 @@
+-d G:\TangMega138K\ae350_test\ae350_demo\impl\gwsynthesis\ae350_demo.vg
+-p GW5AST-138B-FCPBGA676A-1
+-pn GW5AST-LV138FPG676AES
+-cst G:\TangMega138K\ae350_test\ae350_demo\src\ae350_demo.cst
+-cfg G:\TangMega138K\ae350_test\ae350_demo\impl\pnr\device.cfg
+-sdc G:\TangMega138K\ae350_test\ae350_demo\src\ae350_demo.sdc
+-bit
+-tr
+-ph
+-warning_all
+-timing
+-ireg_not_in_iob
+-oreg_not_in_iob
+-ioreg_not_in_iob
+-cst_error
+-correct_hold 1
+-route_maxfan 23

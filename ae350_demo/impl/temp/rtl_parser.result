@@ -1,0 +1,62 @@
+[
+ {
+  "InstFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/ae350_demo.v",
+  "InstLine" : 3,
+  "InstName" : "ae350_demo_top",
+  "ModuleFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/ae350_demo.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "ae350_demo_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/ae350_demo.v",
+    "InstLine" : 107,
+    "InstName" : "u_core_pll",
+    "ModuleFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/core_pll/core_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "core_pll"
+   },
+   {
+    "InstFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/ae350_demo.v",
+    "InstLine" : 128,
+    "InstName" : "u_ddr_pll",
+    "ModuleFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/ddr_pll/ddr_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "ddr_pll"
+   },
+   {
+    "InstFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/ae350_demo.v",
+    "InstLine" : 141,
+    "InstName" : "u_key_debounce_ddr3",
+    "ModuleFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/key_debounce.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "key_debounce"
+   },
+   {
+    "InstFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/ae350_demo.v",
+    "InstLine" : 150,
+    "InstName" : "u_key_debounce_ae350",
+    "ModuleFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/key_debounce.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "key_debounce"
+   },
+   {
+    "InstFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/ae350_demo.v",
+    "InstLine" : 160,
+    "InstName" : "u_RiscV_AE350_SOC_Top",
+    "ModuleFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/riscv_ae350_soc/riscv_ae350_soc.v",
+    "ModuleLine" : 28864,
+    "ModuleName" : "RiscV_AE350_SOC_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/riscv_ae350_soc/riscv_ae350_soc.v",
+      "InstLine" : 29275,
+      "InstName" : "u_RiscV_AE350_SOC",
+      "ModuleFile" : "G:/TangMega138K/ae350_test/ae350_demo/src/riscv_ae350_soc/riscv_ae350_soc.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "RiscV_AE350_SOC"
+     }
+    ]
+   }
+  ]
+ }
+]

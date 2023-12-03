@@ -1,0 +1,14 @@
+autoBuildEnable=false
+connectType=ICE
+connectTypeOptionData=2
+connectTypeOptionSettings={"id"\:2,"name"\:"ICE","type"\:"ICE","misc_argument"\:"","mechanism"\:"LOCAL","hostname"\:"","port"\:"","pargs"\:"","pport"\:"","version"\:"Andes ICEman","sidCompatible"\:false,"bport"\:"","tport"\:"","path"\:"${ANDESIGHT_ROOT}/ice/ICEman","md5"\:"d5b6ff3f4c8c2389781655c1ea24482b"}
+eclipse.preferences.version=1
+ice.config.setting={vid\=1027, bus\=1, port\=3, pid\=24592, device\=20, key\=default}
+iceman.misc.args=
+iceman.misc.args.map={2\=}
+name=ADP-AE350-A25-GOWIN
+sid.misc.args=
+target.project.build.selection=true
+target.project.clean.selection=true
+targetURI=rse\://LOCALHOST/~target/ADP-AE350-A25-GOWIN
+vep.memory.latency=-1

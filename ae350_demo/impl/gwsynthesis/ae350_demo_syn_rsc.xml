@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="ae350_demo_top" Register="33" Alu="31" Lut="13">
+    <SubModule name="u_core_pll"/>
+    <SubModule name="u_ddr_pll"/>
+    <SubModule name="u_key_debounce_ddr3" Register="24" Alu="19" Lut="9"/>
+    <SubModule name="u_key_debounce_ae350" Register="24" Alu="19" Lut="9"/>
+    <SubModule name="u_RiscV_AE350_SOC_Top" Register="4314" Alu="240" Lut="3357" Bsram="22" Ssram="64"/>
+</Module>
